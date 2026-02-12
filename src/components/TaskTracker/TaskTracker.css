@@ -1,0 +1,64 @@
+.task-list-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.task-item:hover {
+  background-color: #f9f9f9;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Dark Mode specific overrides */
+.dark-mode .task-list-container {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode input {
+  background-color: #444;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark-mode .task-item:hover {
+  background-color: #444;
+}
