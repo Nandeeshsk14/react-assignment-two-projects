@@ -1,12 +1,12 @@
 # React Assignment: Profile Cards & Task Tracker
 
-[cite_start]This repository contains a two-part React application built to demonstrate component reusability, state management, and side effects[cite: 7, 15]. 
+This repository contains a two-part React application built to demonstrate component reusability, state management, and side effects. 
 
 ## Features
 
-* [cite_start]**Interactive Profile Cards:** Reusable components that display user data passed via props[cite: 8, 9]. [cite_start]Each card includes a state-driven button to toggle the user's "Follow/Unfollow" status[cite: 10].
-* [cite_start]**Dynamic Task Tracker:** A task management tool where users can dynamically add new tasks and click on them to mark them as completed[cite: 17, 18].
-* [cite_start]**Global Dark Mode:** A toggle switch built with `useState` that changes the application's theme from light to dark[cite: 20].
+* **Interactive Profile Cards:** Reusable components that display user data passed via props . Each card includes a state-driven button to toggle the user's "Follow/Unfollow" status.
+* **Dynamic Task Tracker:** A task management tool where users can dynamically add new tasks and click on them to mark them as complete.
+* **Global Dark Mode:** A toggle switch built with `useState` that changes the application's theme from light to dark.
 
 ## Technologies Used
 
