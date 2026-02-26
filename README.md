@@ -1,16 +1,29 @@
-# React + Vite
+# React Assignment: Profile Cards & Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[cite_start]This repository contains a two-part React application built to demonstrate component reusability, state management, and side effects[cite: 7, 15]. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [cite_start]**Interactive Profile Cards:** Reusable components that display user data passed via props[cite: 8, 9]. [cite_start]Each card includes a state-driven button to toggle the user's "Follow/Unfollow" status[cite: 10].
+* [cite_start]**Dynamic Task Tracker:** A task management tool where users can dynamically add new tasks and click on them to mark them as completed[cite: 17, 18].
+* [cite_start]**Global Dark Mode:** A toggle switch built with `useState` that changes the application's theme from light to dark[cite: 20].
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React (via Vite)
+* JavaScript (JSX)
+* CSS
 
-## Expanding the ESLint configuration
+## How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repository to your local machine.
+2. Navigate into the project directory.
+3. Install the dependencies by running:
+   \`\`\`bash
+   npm install
+   \`\`\`
+4. Start the development server by running:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+5. Open your browser and go to `http://localhost:5173` (or the port provided in your terminal).
